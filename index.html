@@ -4,7 +4,25 @@
 		<title>Tuition</title>
 	</head>
 	<body>
-		<button id="button">go!</button>
-		<div display="hidden">BAM!</div>	
+	<header style="background:blue;color:white;padding:10px">blah</header>
+		<button id="silly" style="background:lightgrey; border:1px solid darkgrey;padding: 5px;margin:0">Do It</button>
+		<button id="clear" style="background:lightgrey; border:1px solid darkgrey;padding: 5px;margin:0 5px;color:darkgrey">Clear</button>
+		<div id="results"></div>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/tuition.js"></script>
+	<script>
+		$('#silly').click(function(){
+			SILLY.DoIt($('#results'));
+			if ($('#clear').css("color") == 'rgb(169, 169, 169)'){
+				$('#clear').css("color","black");
+			};
+		});
+
+		$('#clear').click(function(){
+			$('#results').html('');
+			$('#clear').css("color","darkgrey");
+		});
+	</script>	
 	</body>
 </html>
