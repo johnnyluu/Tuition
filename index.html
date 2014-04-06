@@ -2,11 +2,13 @@
 <html>
 	<head>
 		<title>Tuition</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-	<header style="background:blue;color:white;padding:10px">blah</header>
-		<button id="silly" style="background:lightgrey; border:1px solid darkgrey;padding: 5px;margin:0">Do It</button>
-		<button id="clear" style="background:lightgrey; border:1px solid darkgrey;padding: 5px;margin:0 5px;color:darkgrey">Clear</button>
+	<header style="background:blue;color:white;padding:10px">TUITION</header>
+		<button id="silly">Do It</button>
+		<button id="clear">Clear</button>
 		<div id="results"></div>
 
 	<script src="js/jquery-1.11.0.min.js"></script>
@@ -16,11 +18,13 @@
 			SILLY.DoIt($('#results'));
 			if ($('#clear').css("color") == 'rgb(169, 169, 169)'){
 				$('#clear').css("color","black");
+				$('#clear').css("background",'lightgrey');
 			};
 		});
 
 		$('#clear').click(function(){
 			$('#results').html('');
+			$('#clear').css("background","grey");
 			$('#clear').css("color","darkgrey");
 		});
 	</script>	
