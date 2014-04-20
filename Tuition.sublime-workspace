@@ -99,6 +99,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 876,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 679,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/tuition.js",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -180,8 +204,93 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 876,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/tuition.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -216,6 +325,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"project": "Tuition.sublime-project",
 	"replace":
 	{
